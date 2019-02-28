@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "skills-comparison",
+  "private_key_id": "3fb0fe504d2d96cbddbae66a381f5230489c6f52",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCe7MCSl1jS6KTr\n63aGFBF8FjJfdcOOsrwhBxN7rviM945HqqGUOH9st0jw+/3VNhK83XmEqQZLGC2X\nAK5PCntfks70vLop03dtnojusUUfLt4dQpzwzcx35HoezF6o/xxXnwyZQSjrOTkl\nAUPj5P6VkVQVZx/ucw508Uwe0ivDm8qfcevrQN5tSj4OSokgFFQ/EaTW9CgIchMz\no0RFbRdLjDnC2PcmzEcuxU+9124YI7N6UPsAFX/3Y2u+gX7L8F/pFz+FMlpuk9fu\nARkEYf11b3sAdy7+ISwKcfa7yt8PGitpMKF8dX6283A5DzgsSUWv8zYiHCglX0lu\nDVJ2nsI1AgMBAAECggEAH37T+zk7RTEN3iNf7dp0TJ8phHmWM+WAGxuH5O8cGvPE\nordSJkm8FxOLxRZri6GXvQ43Uu8cbC1ye4aLBOcS5DH4CdCNJFTgSj0s7gD7rd5f\n7nSRHbfrWadR/GCMMfm86DCBEq4zKcrBZHAHwFZVjdarT0KMtXjf2JUpfMIyIiWh\n4rIcWcWdirC1GqE0QgfyFiOe0zPeVYbAbRDFZXfRVPMxHPeWiDBcs1KjRmbuv/HW\nE7j7tJiuvY4OxI6Hdb3VGqZqnXBDCZT5kH+APZmx4OE5ibuxnS0pU5zPjNow39jG\najKjPNMCsncWW7vfCCCauMK/PEFJCzRxVVuRbP8u0QKBgQDLmrqsogfyisX6ATpX\n7ToZ3XBPO95em9Wdkazbu+5dsa2SL8Kz5YfLNjKl5hE2gQl7H7WMJBaQLsXgUVa0\nPmTjnJqwmzWl4tvAntiNdY9cLH/o0Ewmcx++/e76ovgYD0Qv/wC0hhKUqag+rHLN\nFFRCaIVp9lVz8A0Yxe686zlkEwKBgQDH0pKGj79IH7uJwqt0OruOYsd5lLmC6Xm7\nBGmgeIUihk59oKJLxjeJYV3yHtikus5pwdRydHf44p4XFTuVkNSsdjQT2DDjqC5K\nw5ZHVn3OaR78fNtqcpa0Ef0Mdpxr0V2Lt0Yhe1k548mj0IdkUC25D9D7GgbG4lmX\nMda0SCG5lwKBgQCAnvGYhw+QN/yTT91EmHdgyZPeagqzJ6zNyq4xbcpKZCkrNYLB\nVJnxVP6v8OQk02Vi44gzzMR4NyQH7jpgyR3A8DiEorhEYEjEqVRSINb8upvfPl8s\n1wNSC2bB7Nvfjx1bWLNgV2Y7heXkGdq4FUSZYyAM7XHUOOx9HuUPcWWjAwKBgQCR\nSC9SeHcJmFDA83G3GvC8sGL5qcFLRjdEWwv1KUsa8+1jd4QodaBxWQJ2BCldc5iZ\n2dx9ruJ/aTyp6b0dnGSUU4i/mOLK0r99ikDb8y2bAmEOEDVzaobZu25xPleyKFHM\nQF9T/pu79DrpyLZ3n7fuomo99wlQVsfunsTM5NjoVwKBgQCXA9m1TtE7mQjFNBpS\nrJvG/X9C3AaSRu4vohqEVFoIyP7OqkdtymNVE8mgs9hBrdX3H498Y7rKHYNkrIZ3\neaqYSzYoBOVEnLwQLAnvqKaWaSY9OMsJDqbmaPu0syOnL+rU1hEkg+6cVYRYkhrN\nfU7Fw4b7bAjSn1DQd34LmDPHxQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "skills-comparison@skills-comparison.iam.gserviceaccount.com",
+  "client_id": "117599302184823537934",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/skills-comparison%40skills-comparison.iam.gserviceaccount.com"
+}

@@ -12,6 +12,7 @@ client = gspread.authorize(creds)
 # Make sure you use the right name here.
 sheet = client.open("Skills-Comparison-Spreadsheet").sheet1
 
-# Extract and print all of the values
-list_of_hashes = sheet.get_all_records()
-print(list_of_hashes)
+# Extract and print all of the values in a specific range of cells
+cell_list = sheet.range("B2:I55")
+for cell in cell_list:
+	print(cell.value)

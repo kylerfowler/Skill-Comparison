@@ -2,6 +2,7 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
 from time import sleep
+import matplotlib.pyplot as plt
 
 # use creds to create a client to interact with the Google Drive API
 scope = ['https://spreadsheets.google.com/feeds',
@@ -36,6 +37,7 @@ tennis = pd.concat([universal.loc["Height_(ft-in)":"Team_Wins", "Ryan":"Sam"], d
 golf = pd.concat([universal.loc["Height_(ft-in)":"Team_Wins", "Evan":"Evan"], df.loc["1st_Place":"3rd_Place", "Evan":"Evan"], df.loc["Drive_Distance_(ft)":"Average Score", "Evan":"Evan"]])
 baseball = pd.concat([universal.loc["Height_(ft-in)":"Team_Wins", "Kyle":"Kyle"], df.loc["Plate_Appearances":"Changeup_Velocity_(mph)", "Kyle":"Kyle"]])
 volleyball = pd.concat([universal.loc["Height_(ft-in)":"Team_Wins", "Justin":"Dan"], df.loc["Volleyball_Aces":"Volleyball_Serve_Velocity_(mph)", "Justin":"Dan"]])
+categories = [universal, track, tennis, golf, baseball, volleyball]
 # Test Area
 print("Universal:",'\n',universal,'\n')
 print("Track:",'\n',track,'\n')
@@ -43,3 +45,7 @@ print("Tennis:",'\n',tennis,'\n')
 print("Golf:",'\n',golf,'\n')
 print("Baseball:",'\n',baseball,'\n')
 print("Volleyball:",'\n',volleyball)
+# Doesn't Work
+for category in categories:
+    category.plot(kind='bar', x=category.index, y=category.labels)
+    plt.show()

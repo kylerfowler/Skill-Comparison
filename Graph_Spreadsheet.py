@@ -16,15 +16,15 @@ sheet = client.open("Skills-Comparison-Spreadsheet").sheet1
 names = []
 stats = []
 
-#groups names by sport to be used in color coding
-track = ["Joey","Marc"]
-tennis = ["Ryan","Sam"]
+# groups names by sport to be used in color coding
+track = ["Joey", "Marc"]
+tennis = ["Ryan", "Sam"]
 golf = ["Evan"]
 baseball = ["Kyle"]
-volleyball = ["Justin","Dan"]
+volleyball = ["Justin", "Dan"]
 
 row = input("Choose a row: ")
-#iterates though each stat in a row and converts it to and int before adding to a list
+# iterates though each stat in a row and converts it to and int before adding to a list
 i = 1
 while i <= 8:
 	if sheet.row_values(row)[i] != 'NA':
@@ -33,10 +33,10 @@ while i <= 8:
 		sleep(.15)
 	i += 1
 
-#sets up bar chart
-bar = plt.bar(names,stats,width=.5)
+# sets up bar chart
+bar = plt.bar(names, stats, width=.5)
 
-#color codes bar chart
+# color codes bar chart
 m = 0
 while m < len(names):
 	if names[m] in track:
@@ -56,7 +56,7 @@ while m < len(names):
 		
 	m += 1
 
-#graphs the bar chart
+# graphs the bar chart
 plt.xlabel("Name")
 plt.ylabel(sheet.row_values(row)[0])
 plt.show(bar)

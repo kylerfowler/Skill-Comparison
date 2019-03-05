@@ -46,6 +46,3 @@ print("Golf:",'\n',golf,'\n')
 print("Baseball:",'\n',baseball,'\n')
 print("Volleyball:",'\n',volleyball)
 # Doesn't Work
-for category in categories:
-    category.plot(kind='bar', x=category.index, y=category.labels)
-    plt.show()
